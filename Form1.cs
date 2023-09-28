@@ -8,7 +8,7 @@ namespace Running_Button
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Мы и не сомневались, что Вы так думаете!");
+            MessageBox.Show("Мы и не сомневались, что Вы так !");
         }
 
         private void mouseRun(object sender, MouseEventArgs e)

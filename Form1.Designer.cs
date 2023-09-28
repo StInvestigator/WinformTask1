@@ -55,7 +55,6 @@
             buttonNo.TabIndex = 1;
             buttonNo.Text = "Нет";
             buttonNo.UseVisualStyleBackColor = true;
-            buttonNo.MouseMove += mouseRun;
             // 
             // buttonYes
             // 
@@ -68,7 +67,6 @@
             buttonYes.TabIndex = 2;
             buttonYes.Text = "Да";
             buttonYes.UseVisualStyleBackColor = true;
-            buttonYes.Click += button2_Click;
             // 
             // Form1
             // 

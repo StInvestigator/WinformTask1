@@ -6,17 +6,14 @@ namespace Running_Button
         {
             InitializeComponent();
         }
-        private void button2_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Мы и не сомневались, что Вы так думаете!");
-        }
 
-        private void mouseRun(object sender, MouseEventArgs e)
+        private void ShowResume(object sender, EventArgs e)
         {
-            buttonNo.Top -= e.Y;
-            buttonNo.Left -= e.Y;
-            if (buttonNo.Top < -10 || buttonNo.Top > 100) buttonNo.Top = 60;
-            if (buttonNo.Left < -80 || buttonNo.Left > 250) buttonNo.Left = 120;
+            string f = "My name is Vlad", s = "I`m sixteen", t = "Its my first hometask";
+            MessageBox.Show(f);
+            MessageBox.Show(s);
+            MessageBox.Show(t);
+            MessageBox.Show("Average string length is " + ((f.Length+s.Length+t.Length)/3).ToString());
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Running_Button
 {
-    partial class Form1
+    partial class Form
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,13 +30,15 @@
         {
             SuspendLayout();
             // 
-            // Form1
+            // Form
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "Form";
+            Text = "Rectangle";
+            MouseClick += OnMouseClick;
+            MouseMove += OnMouseMove;
             ResumeLayout(false);
         }
 

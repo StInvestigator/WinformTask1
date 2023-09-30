@@ -37,6 +37,8 @@
             ClientSize = new Size(800, 450);
             Name = "Form1";
             Text = "Form1";
+            MouseDown += FormMouseDown;
+            MouseUp += FormMouseUp;
             ResumeLayout(false);
         }
 

@@ -142,7 +142,7 @@ namespace Running_Button
         {
             totalEarn += Convert.ToDouble(TotalSumLabel.Text);
             Text = "Please wait...";
-            Thread.Sleep(1000);
+            Thread.Sleep(3000);
             Text = "Fuel Station";
             var answ = MessageBox.Show($"You earned {totalEarn} today\nContinue working?", "Cash Register", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
             if (answ == DialogResult.Yes)
